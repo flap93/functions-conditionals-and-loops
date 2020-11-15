@@ -76,5 +76,28 @@ function greetings(helloOne) {
   test('apple'); // print: red
   test('apple', 20); // print: red, big quantity
 
+
+
+
+
+  function greeting(helloOne, helloTwo) {
+    const typesGreetings = ['Good morning', 'Good afternon', 'Good night'];
+  
+      if (helloOne) {
+        if (typesGreetings.includes(helloOne)) {
+          console.log('Good morning, how can i help you');
+          
+          if(helloTwo == 'Good afternoon') {
+            console.log('Good afternoon, how can i help you');
+          }
+  
+        }
+      } else {
+        console.log('Sorry, its too late!');
+      }
+  }
+  
+  greeting('Good afternoon');
+
   
 
